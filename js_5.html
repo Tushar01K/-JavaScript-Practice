@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope,if-else and conditional statements</title>
+</head>
+
+<body>
+    <Script>
+        //if we declare the var inside any function, then its scope will remain under that function. 
+        let a = "i am a full stack developer"
+        console.log(a)
+        a = "fullstack java developer"
+        console.log(a)
+
+        //ve declared a as a constant, therefore, its value cannot be changed further by any means. Hence, it shows an error.
+        const c = "this is the constant variable"
+        console.log(c)
+        // c="i am tryying to change the value of c"
+        // console.log(c)
+
+
+
+        let age = 21
+        if (age >18) {
+            console.log("You are eligible for voting..")
+        } else if(age>=18) {
+            console.log("you are not eligible for voting")
+        }
+        else{
+            console.log("your not eligible ")
+        }
+
+    </Script>
+</body>
+
+</html>
